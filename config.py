@@ -1,6 +1,7 @@
 import os
 
 from pytgcalls import PyTgCalls
+from pytgcalls import StreamType
 
 from dotenv import load_dotenv
 from pyrogram import Client, filters
