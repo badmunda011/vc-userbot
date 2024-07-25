@@ -1,5 +1,5 @@
-py-tgcalls
-ntgcalls==1.2.0
+tgcalls==3.0.0.dev6
+pytgcalls==2.1.0 --no-deps
 TgCrypto==1.2.5
 git+https://github.com/pyrogram/pyrogram@master
 telegraph
