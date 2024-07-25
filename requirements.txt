@@ -1,6 +1,7 @@
 TgCrypto==1.2.5
 git+https://github.com/pyrogram/pyrogram@master
 py-tgcalls==1.2.8
+ntgcalls==1.2.0
 telegraph
 gTTS
 googletrans==4.0.0rc1
