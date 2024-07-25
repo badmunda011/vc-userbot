@@ -16,8 +16,8 @@ GROUP_MODE = os.getenv("GROUP_MODE", "True")
 
 
 contact_filter = filters.create(
-    lambda _, __, message:
-    (message.from_user and message.from_user.is_contact) or message.outgoing
+    lambda _, __, message: (message.from_user and message.from_user.is_contact)
+    or message.outgoing
 )
 
 
@@ -27,6 +27,5 @@ else:
     grp = False
 
 GRPPLAY = grp
-bot = Client(SESSION, API_ID, API_HASH, plugins=dict(root="plugins"))
-
-call_py = PyTgCalls
+bot = Client(SESSION, API_ID, API_HASH, plugins=dict(root="AsadAlexaVCBot"))
+call_py = PyTgCalls(bot)
