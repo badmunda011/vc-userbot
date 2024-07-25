@@ -29,6 +29,4 @@ else:
 GRPPLAY = grp
 bot = Client(SESSION, API_ID, API_HASH, plugins=dict(root="plugins"))
 
-workdir = workdir or Path.cwd()
-self.database = workdir / (self.name + self.FILE_EXTENSION)
 call_py = PyTgCalls
